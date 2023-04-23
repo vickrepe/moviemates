@@ -1,0 +1,9 @@
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
