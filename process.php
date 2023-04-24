@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div>
-                <img class="img-ind" src="images/process-img1.png" alt="Descripción de la imagen">
+                <img class="img-proc" src="images/process-img1.png" alt="Descripción de la imagen">
             </div>
         </div>
 
@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div>
-                <img class="img-ind" src="images/process-img2.jpg" alt="Descripción de la imagen">
+                <img class="img-proc" src="images/process-img2.jpg" alt="Descripción de la imagen">
             </div>
         </div>
         <div>
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div>
-                <img class="img-ind" src="images/process-img3.png" alt="Descripción de la imagen">
+                <img class="img-proc" src="images/process-img3.png" alt="Descripción de la imagen">
             </div>
             <p>Este es el código que debes proporcionar al administrador para que active tu usuario.
             </p>

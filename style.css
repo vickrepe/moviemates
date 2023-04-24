@@ -41,9 +41,6 @@ header {
 h1 {
   font-size: 2rem; /* tamaño original */
 }
-#tit-index {
-  font-size: 3rem;
-}
 
 
 /* menu */
@@ -129,6 +126,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  font-size: 12px;
+  font-weight: 300; /* Hacer la letra más fina */
 }
 
 .contact-info {
@@ -151,6 +150,7 @@ footer {
   /* Estilos para dispositivos menores a 768px */
   footer {
     font-size: 10px; /* Cambiar el tamaño de la letra a 14px */
+    font-weight: 300; /* Hacer la letra más fina */
   }
 }
 
@@ -168,9 +168,20 @@ padding-bottom: 5%;
     padding-top: 40%;
   }
 }
+
 .content {
   background-color: #d9dbe0;
   color: rgb(14, 0, 17);
+}
+.container {
+  height: 500px;
+  padding-top: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 860px;
+    padding-top: 10px;
+  }
 }
 .img-ind{
   margin-top: 15px;
@@ -180,11 +191,86 @@ padding-bottom: 5%;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
-  width: 400px;
+  width: 500px;
   height: 400px;
+  float: right;
+  margin-top: -250px;
 }
 @media only screen and (max-width: 768px) {
   .img-ind {
+    margin-top: 15px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 400px;
+    height: 200px; /* cambio de altura a 200px */
+  }
+}
+
+
+h1 {
+  margin-bottom: 1rem;
+}
+#tit-index{
+  font-size: 3rem;
+  text-align: left;
+  width: 500px;
+}
+.buttons a {
+  display: inline-block;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 20px; 
+}
+button {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  background-image: linear-gradient(#5801c5, #9200b6);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/*Process*/
+.img-proc{
+  margin-top: 15px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 500px;
+  height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  .img-proc {
+    margin-top: 15px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 400px;
+    height: 270px; /* cambio de altura a 200px */
+
+  }
+}
+/*About*/
+.vistazo{
+  margin-top: 15px;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  .vistazo {
     margin-top: 15px;
     margin: 0 auto;
     display: block;
@@ -195,22 +281,4 @@ padding-bottom: 5%;
     width: 400px;
     height: 300px; /* cambio de altura a 200px */
   }
-}
-
-
-h1 {
-  margin-bottom: 1rem;
-}
-.buttons a {
-  display: inline-block;
-  margin-right: 10px;
-}
-button {
-  padding: 1rem 2rem;
-  border-radius: 25px;
-  font-size: 1.2rem;
-  background-image: linear-gradient(#5801c5, #9200b6);
-  color: white;
-  border: none;
-  cursor: pointer;
 }

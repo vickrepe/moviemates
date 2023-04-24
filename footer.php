@@ -9,6 +9,6 @@
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
     </div>
-    <p class="copyright">Derechos de autor &copy; 2023 Ejemplo.com</p>
+    <p class="copyright">Derechos de autor &copy; 2023 moviemates.com</p>
 </footer>
 

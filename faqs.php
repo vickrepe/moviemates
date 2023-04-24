@@ -22,6 +22,10 @@
         </div>
         <div>
             <div class="text">
+                <h2>¿Donde puedo ver cual es el contenido que tiene la plaforma?</h2>
+                <p><a href="https://moviematesadmin.moviemates.es/newsletter/id/last7" target="_blank">Sigue este enlace</a> para ver el contenido actual en la plataforma.</p>
+            </div>
+            <div class="text">
                 <h2>Me gustaría solicitar una serie que aún no está ¿Como puedo verla?</h2>
                 <p>A través de nuestro canal de telegram, en el mensaje fijado, encontrarás un apartado que dice "Realizar peticiones". Allí podrás entrar con tu usuario y contraseña
                     solicitar la serie y pelicula. Estará disponible en un par de días.
