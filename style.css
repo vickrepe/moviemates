@@ -248,3 +248,9 @@ button {
     height: 250px;
   }
 }
+/*max-width: +768 to 1440px*/
+@media (min-width: 768px) and (max-width: 1440px) {
+  .menu__box {
+    height: 32%;
+  }
+}
