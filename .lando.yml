@@ -1,0 +1,4 @@
+name: moviemates
+recipe: lamp
+config:
+  webroot: .

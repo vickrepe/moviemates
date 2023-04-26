@@ -146,42 +146,18 @@ footer {
   margin-left: 0;
 }
 
-@media screen and (max-width: 768px) {
-  /* Estilos para dispositivos menores a 768px */
-  footer {
-    font-size: 10px; /* Cambiar el tamaño de la letra a 14px */
-    font-weight: 300; /* Hacer la letra más fina */
-  }
-}
-
 
 /*Index*/
-
 main{
 padding-top: 10%;
 padding-left: 15%;
 padding-right: 15%;
 padding-bottom: 5%;
 }
-@media only screen and (max-width: 768px) {
-  main{
-    padding-top: 40%;
-  }
-}
 
 .content {
   background-color: #d9dbe0;
   color: rgb(14, 0, 17);
-}
-.container {
-  height: 500px;
-  padding-top: 50px;
-}
-@media only screen and (max-width: 768px) {
-  .container {
-    height: 860px;
-    padding-top: 10px;
-  }
 }
 .img-ind{
   margin-top: 15px;
@@ -196,19 +172,6 @@ padding-bottom: 5%;
   float: right;
   margin-top: -250px;
 }
-@media only screen and (max-width: 768px) {
-  .img-ind {
-    margin-top: 15px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-    width: 400px;
-    height: 200px; /* cambio de altura a 200px */
-  }
-}
-
 
 h1 {
   margin-bottom: 1rem;
@@ -218,6 +181,7 @@ h1 {
   text-align: left;
   width: 500px;
 }
+
 .buttons a {
   display: inline-block;
   justify-content: center;
@@ -244,19 +208,6 @@ button {
   width: 500px;
   height: 400px;
 }
-@media only screen and (max-width: 768px) {
-  .img-proc {
-    margin-top: 15px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-    width: 400px;
-    height: 270px; /* cambio de altura a 200px */
-
-  }
-}
 /*About*/
 .vistazo{
   margin-top: 15px;
@@ -269,16 +220,17 @@ button {
   width: 700px;
   height: 400px;
 }
-@media only screen and (max-width: 768px) {
-  .vistazo {
-    margin-top: 15px;
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-    width: 400px;
-    height: 300px; /* cambio de altura a 200px */
+/*max-width: 425px*/
+@media (max-width: 425px) {
+  #tit-index{
+    width: 300px;
+    padding-top: 25%;
+    font-size: 32px;
+  }
+  main{
+    margin-top: 35%;
+  }
+  header {
+    padding-bottom: 10px;
   }
 }

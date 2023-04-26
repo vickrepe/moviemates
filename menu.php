@@ -5,10 +5,10 @@
     </label>
 
     <ul class="menu__box">
-        <li><a class="menu__item" href="\moviematesweb\index.php">Inicio</a></li>
-        <li><a class="menu__item" href="\moviematesweb\process.php">Configuración</a></li>
-        <li><a class="menu__item" href="\moviematesweb\about.php">Información</a></li>
-        <li><a class="menu__item" href="\moviematesweb\faqs.php">FAQS</a></li>
-        <li><a class="menu__item" href="\moviematesweb\contact.php">Contacto</a></li>
+        <li><a class="menu__item" href="index.php">Inicio</a></li>
+        <li><a class="menu__item" href="process.php">Configuración</a></li>
+        <li><a class="menu__item" href="about.php">Información</a></li>
+        <li><a class="menu__item" href="faqs.php">FAQS</a></li>
+        <li><a class="menu__item" href="contact.php">Contacto</a></li>
     </ul>
 </div>
