@@ -224,13 +224,27 @@ button {
 @media (max-width: 425px) {
   #tit-index{
     width: 300px;
-    padding-top: 25%;
+    padding-top: 20%;
     font-size: 32px;
+    margin-top: -105px;
   }
   main{
     margin-top: 35%;
   }
   header {
     padding-bottom: 10px;
+  }
+  .menu__box {
+    height: 32%;
+  }
+  .img-ind{
+    margin-top: 0px;
+    height: 200px;
+  }
+  .img-proc{
+    height: 250px;
+  }
+  .vistazo{
+    height: 250px;
   }
 }
