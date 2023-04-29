@@ -220,6 +220,26 @@ button {
   width: 700px;
   height: 400px;
 }
+
+/*contact*/
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 60px;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+}
+textarea{
+  height:150px;
+}
+#text-contact {
+  width: 75%;
+}
+
 /*max-width: 425px*/
 @media (max-width: 425px) {
   #tit-index{
