@@ -2,8 +2,7 @@
 
 <main class="content">
     <h1>Contacto</h1>
-    <p>Si necesitas más información, contacta con nosotros a través de Telegram: <a href="https://t.me/userTelegram">@userTelegram</a> o a través de correo electrónico: <a href="mailto:correelec@gmail.com">correelec@gmail.com</a>.
-    </p>
+    <p>Si necesitas más información, contacta con el administrador que te facilito nuestra página web o envíanos un mail a: moviesmatestv@gmail.com</p>
     <a href="index.php">
                 <button>Inicio</button>
             </a>
